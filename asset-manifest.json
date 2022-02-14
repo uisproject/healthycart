@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/healthycart/static/css/main.2737ad6e.css",
+    "main.js": "/healthycart/static/js/main.8ed40b9e.js",
+    "index.html": "/healthycart/index.html",
+    "main.2737ad6e.css.map": "/healthycart/static/css/main.2737ad6e.css.map",
+    "main.8ed40b9e.js.map": "/healthycart/static/js/main.8ed40b9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2737ad6e.css",
+    "static/js/main.8ed40b9e.js"
+  ]
+}
