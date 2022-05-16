@@ -1,39 +1,21 @@
-import mainStyle from './styles/mainStyle.css'
-import searchIcon from './assets/search-icon.png'
-import inputPlaceholder from './styles/inputPlaceholder.css'
+import searchIcon from "./assets/search-icon.png";
 
-const Search = ({searchHandler}) => {
+const Search = ({ searchHandler }) => {
+  return (
+    <div className="search__wrapper w-[100%] relative">
+      <div className="search-icon__wrapper w-[15px] absolute right-[10px] top-[50%] translate-y-[-50%] grid place-content-center">
+        <img src={searchIcon} className="w-[100%]" />
+      </div>
+      <input
+        type="text"
+        onChange={(e) => {
+          searchHandler(e);
+        }}
+        className="input-search w-[100%] h-[3em] rounded-[1em] border-hidden pr-[25px] pl-[15px] box-border bg-[#F4F6F8]"
+        placeholder="Search"
+      />
+    </div>
+  );
+};
 
-    return(
-        <div className="search__wrapper" style={{
-            width:'100%',
-            position:'relative',
-            }}>
-            <div className='search-icon__wrapper' style={{
-                width:'15px',
-                position:'absolute',
-                right:'10px',
-                top:'50%',
-                transform:'translateY(-50%)',
-                display:'grid',
-                placeContent:'center'
-                }}>
-
-                <img src={searchIcon} style={{
-                    width:'100%'
-                    }}/>
-            </div>
-            <input type='text' onChange={(e)=>{searchHandler(e)}} className='input-search' placeholder='Search' style={{
-                width:'100%',
-                height:'3em',
-                borderRadius:'1em',
-                border:'none',
-                padding:'0 25px 0 15px',
-                boxSizing:'border-box',
-                backgroundColor:'#F4F6F8'
-            }}/>
-        </div>
-    )
-}
-
-export default Search
+export default Search;
