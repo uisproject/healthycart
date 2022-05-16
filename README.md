@@ -17,6 +17,11 @@ Install healthcart with npm
   npm start
 ```
 
+## Preview
+
+![Preview](https://raw.githubusercontent.com/uisproject/healthycart/development/screenshots/1652703794033.jpg)
+![Preview](https://raw.githubusercontent.com/uisproject/healthycart/development/screenshots/1652703852551.jpg)
+
 ## Authors
 
 - [@uisproject](https://github.com/uisproject)
