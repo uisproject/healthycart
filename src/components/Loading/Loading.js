@@ -1,4 +1,4 @@
-import loadingGIF from "./assets/Shopping cart.gif";
+import loadingGIF from "../../assets/Shopping cart.gif";
 
 const Loading = () => {
   return (

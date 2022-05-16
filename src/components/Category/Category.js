@@ -1,8 +1,6 @@
 import { memo } from "react";
 
 const Category = ({ img, title, categoryHandler }) => {
-  console.log("caetegory called");
-
   return (
     <div
       className="category bg-[#F4F6F8] my-[20px] mx-0 rounded-[1em] cursor-pointer"

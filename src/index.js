@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ShoppingPage from "./ShoppingPage";
-import MyCartPage from "./MyCartPage";
-import ProfilePage from "./ProfilePage";
+import ShoppingPage from "./pages/ShoppingPage";
 import "./styles/index.css";
 
 const App = () => {
