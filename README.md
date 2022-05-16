@@ -8,7 +8,7 @@ Displaying list of fruits and able to add the item between 2 tabs, the goal is t
 
 ## Installation
 
-Install my-project with npm
+Install healthcart with npm
 
 ```bash
   npm i
