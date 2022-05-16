@@ -26,12 +26,12 @@ const ShoppingPage = () => {
         <Search searchHandler={searchHandler} />
         <div className="category__wrapper flex justify-around">
           <Category
-            img="./healthycart/assets/fruits.png"
+            img="./assets/fruits.png"
             title="fruit"
             categoryHandler={categoryHandler}
           />
           <Category
-            img="./healthycart/assets/vegetables.png"
+            img="./assets/vegetables.png"
             title="vegetables"
             categoryHandler={categoryHandler}
           />

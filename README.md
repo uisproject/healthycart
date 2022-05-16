@@ -6,6 +6,8 @@ Displaying list of fruits and able to add the item between 2 tabs, the goal is t
 - customFetch
 - customTab (this can be improved a little bit more)
 
+You can visit the page by clicking [here](https://628241860fa6691930e7dae1--aquamarine-blini-7d0774.netlify.app/)
+
 ## Installation
 
 Install healthcart with npm
